@@ -1,0 +1,463 @@
+*{
+  margin-left: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-left: 25px;
+}
+
+.blog {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: strong;
+  font-size: 20px;
+  margin-left: 25px;
+  display: inline-block;
+  width: 950px;
+}
+
+.extra {
+  display: inline-block;
+  font-size: 15px;
+  color: rgb(54, 50, 50); 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.home-extra{
+  color: rgb(54, 50, 50);
+  padding: 20px;
+}
+
+.home-extra:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.home-extra:active {
+  color: rgb(46, 25, 8);
+}
+
+.acc-extra{
+  color: rgb(54, 50, 50);
+  padding: 20px;
+}
+
+.acc-extra:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.acc-extra:active {
+  color: rgb(46, 25, 8);
+}
+
+.about-extra{
+  color: rgb(54, 50, 50);
+  padding: 20px;
+}
+
+.about-extra:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.about-extra:active {
+  color: rgb(46, 25, 8);
+}
+
+
+.div-intro {
+  margin-top: 15px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 55px;
+}
+
+.text-arrow {
+  font-size: 12px;
+  color: rgb(54, 50, 50); 
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(31, 28, 28); 
+  font-style: normal;
+  margin-bottom: 0px;
+  margin-top: 10px; 
+}
+
+.description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-size: 18px;
+  color: rgb(54, 50, 50); 
+  width: 568px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.more-button {
+  font-size: 15px;
+  background-color: transparent;
+  color: black;
+  border-color: rgb(180, 121, 62);
+  border-style: solid;
+  border-width: 1px;
+  height: 39px;
+  width: 130px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 22px;
+  margin-top: 20px;
+  display: block;
+  transition: opacity 1s;
+}
+
+.more-button:hover {
+  background-color: rgb(146, 95, 43);
+  color: aliceblue;
+}
+
+.more-button:active {
+  opacity: 0.5;
+}
+
+.profile {
+  width: 500px;
+  height: 510px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 140px;
+  margin-right: 10px;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.bio {
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(68, 46, 1); 
+  font-style: normal;
+  vertical-align: top;
+  margin-bottom: 60px;
+  margin-top: 100px; 
+  margin-left: 55px;
+}
+
+.sunset {
+  width: 400px;
+  height: 410px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  transform: rotate(-5deg);
+}
+ 
+.smile {
+  width: 400px;
+  height: 410px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block; 
+  margin-left: -360px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  transform: rotate(-1deg);
+}
+
+.ua {
+  width: 400px;
+  height: 410px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: inline-block;
+  margin-left: -360px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  transform: rotate(1deg);
+}
+
+.album {
+  font-size: 25px;
+  color: rgb(54, 50, 50);
+  margin-left: 230px;
+  margin-top: -90px;
+  margin-bottom: 90px;
+  display: block;
+}
+
+.album:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.album:active {
+  color: rgb(46, 25, 8);
+}
+
+.profdes {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.heading {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  vertical-align: top;
+}
+ 
+.fstpara {
+  width: 550px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 50px;
+  line-height: 30px;
+}
+ 
+.sndpara {
+  width: 550px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  line-height: 30px;
+}
+
+.birth-add {
+  display: inline-block;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 90px;
+  margin-bottom:  25px;
+  font-size: 20px;
+}
+
+.birth {
+  position: relative;
+  display: inline-block;
+  margin-right: 438px;
+}
+
+.add {
+  position: relative;
+  display: inline-block;
+}
+
+.hobby-person {
+  display: inline-block;
+  position: relative;
+  margin-left: 90px;
+  margin-bottom:  25px;
+  font-size: 20px;
+}
+
+.hobby {
+  position: relative;
+  display: inline;
+  margin-right: 95px;
+}
+
+.person {
+  display: inline;
+  position: relative;
+}
+
+.fav-hate {
+  display: inline-block;
+  position: relative;
+  margin-left: 90px;
+  margin-bottom:  5px;
+  font-size: 20px;
+}
+
+.fav {
+  position: relative;
+  display: inline;
+  margin-right: 175px;
+}
+
+.hate {
+  display: inline;
+  position: relative;
+}
+
+.dl-button {
+  font-size: 14px;
+  background-color: transparent;
+  color: black;
+  border-color: rgb(180, 121, 62);
+  border-style: solid;
+  border-width: 1px;
+  height: 29px;
+  width: 120px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 5px;
+  display: block;
+  transition: opacity 1s;
+  margin-bottom: 150px;
+}
+
+.dl-button:hover {
+  background-color: rgb(146, 95, 43);
+  color: aliceblue;
+}
+
+.dl-button:active {
+  opacity: 0.5;
+}
+
+.socmed {
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(68, 46, 1); 
+  font-style: normal;
+  vertical-align: top;
+  margin-bottom: 40px;
+  margin-top: 100px; 
+  margin-left: 55px;
+}
+
+.social-media img {
+  width: 150px;
+  margin: 75px;
+  margin-left: 80px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.fb:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  padding: 5px
+}
+
+.ig {
+  height: 150px;
+  padding: -50px;
+}
+.ig:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 45px;
+  padding: 5px
+}
+
+.twt {
+  padding: 20px;
+}
+.twt:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 35%;
+  padding: 5px
+}
+
+.email:hover {
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 5px
+}
+
+.usernames {
+  color: rgb(54, 50, 50);
+  display: inline-block;
+  margin-top: -30px;
+  margin-left: 115px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.FB-acc {
+  color: rgb(54, 50, 50);
+  margin-right: 220px;
+}
+
+.FB-acc:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.FB-acc:active {
+  color: rgb(46, 25, 8);
+}
+
+.IG-acc {
+  color: rgb(54, 50, 50);
+  margin-right: 220px;
+}
+
+.IG-acc:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.IG-acc:active {
+  color: rgb(46, 25, 8);
+}
+
+.twt-acc {
+  color: rgb(54, 50, 50);
+  margin-right: 195px;
+}
+
+.twt-acc:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.twt-acc:active {
+  color: rgb(46, 25, 8);
+}
+
+.email-acc {
+  color: rgb(54, 50, 50);
+}
+
+.email-acc:hover {
+  color: peru;
+  text-decoration: underline;
+}
+
+.email-acc:active {
+  color: rgb(46, 25, 8);
+}
+
+.abt {
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(68, 46, 1); 
+  font-style: normal;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-top: 100px; 
+  margin-left: 55px; 
+}
+
+.box {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: rgb(83, 64, 0);
+  font-size: 18px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  color: #fff;
+  position: relative;
+  border-radius: 0px;
+  margin-left: -10px;
+  margin-bottom: -10px;
+  margin-right: -10px;
+}
+
+.info {
+  margin-left: 25px;
+}
+
+
+  
